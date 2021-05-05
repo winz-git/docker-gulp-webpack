@@ -1,0 +1,45 @@
+{
+  "name": "docker-gulp-bootstrap",
+  "version": "1.0.0",
+  "description": "Implementation of static site with Docker, Gulp, jQuery, and Bootstrap",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build --env=dev",
+    "build:prod": "gulp build --env=prod",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winz-git/docker-gulp-webpack.git"
+  },
+  "keywords": [
+    "Docker",
+    "jQuery",
+    "Gulp",
+    "NPM",
+    "Nodejs",
+    "Bootstrap4"
+  ],
+  "author": "Winston B. Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winz-git/docker-gulp-webpack/issues"
+  },
+  "homepage": "https://github.com/winz-git/docker-gulp-webpack#readme",
+  "devDependencies": {
+    "bootstrap": "^4.6.0",
+    "del": "^6.0.0",
+    "event-stream": "^4.0.1",
+    "fancy-log": "^1.3.3",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^3.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.6.0",
+    "minimist": "^1.2.5",
+    "popper.js": "^1.16.1"
+  }
+}

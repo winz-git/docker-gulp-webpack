@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+
+  my-project:
+    container_name: my-project
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      args:
+        NODE_ENV: ${NODE_ENV}
+    volumes:
+      - ./dist:/usr/share/nginx/html
+    environment:
+      - NODE_ENV=${NODE_ENV}
+    ports:
+      - '8080:80'
